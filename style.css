@@ -44,8 +44,14 @@ li{
 }
 
 li:hover{
-    color: blueviolet;
+    color: blanchedalmond;
+    border-bottom: blueviolet;
+    background-color: blueviolet;
+    font-size: 28px;
+    border-radius: 20px;
     transition: 0.5s;
+    box-shadow: 0 0 20px blueviolet,
+    0 0 2px blueviolet, 0 0 5px blueviolet, 0 0 10px blueviolet, 0 0 20px blueviolet;
 }
 
 .nome{
