@@ -16,6 +16,7 @@
 
 nav{
     display: flex;
+    
     align-items: center;
     justify-content: space-between;
     padding-left: 30px;
@@ -51,6 +52,12 @@ li:hover{
     transition: 0.5s;
     box-shadow: 0 0 20px rgb(238, 218, 61),
     0 0 2px rgb(238, 218, 61), 0 0 5px rgb(238, 218, 61), 0 0 10px rgb(238, 218, 61), 0 0 20px rgb(238, 218, 61);
+}
+
+.link-menu{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
 }
 
 .nome{

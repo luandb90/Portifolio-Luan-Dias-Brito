@@ -12,15 +12,17 @@
 </head>
 
 <body>
+    <header id="header">
 
-    <div class="caixa-principal">
+    <div class="caixa-principal" id="inicio">
+        
         <nav>
             <h2 class="portifolio">Porti<span>fólio</span></h2>
             <ul>
-                <li><a>Ínicio</a></li>
-                <li><a>Sobre mim</a></li>
-                <li><a>Projetos</a></li>
-                <li><a>Contatos</a></li>
+                <li><a class="link-menu" href="#inicio">Ínicio</a></li>
+                <li><a class="link-menu" href="#sobre_mim">Sobre mim</a></li>
+                <li><a class="link-menu" href="#projetos">Projetos</a></li>
+                <li><a class="link-menu" href="#contatos">Contatos</a></li>
             </ul>
         </nav>
 
@@ -30,7 +32,8 @@
         </div>
     </div>
 
-    <section>
+    <section id="sobre_mim">
+        
         <img src="imagem/luandias.png" alt="Luan">
 
         <div>
@@ -42,7 +45,7 @@
                         Sou uma pessoa otimista e animada, especialmente quando se trata da área de <br>
                         Tecnologia da Informação, que amo estudar. <br><br>
                         Atualmente estou empenhado em aprimorar minhas habilidades como desenvolvedor. <br>
-                        Estou atualmente matriculado no 3° semestre em um curso de graduação em Engenharia de Software
+                        Estou atualmente matriculado no 4° semestre em um curso de graduação em Engenharia de Software
                         na Cruzeiro do Sul. <br><br>
 
                         Sou um ávido estudante, sempre em busca de atualizações no mundo da tecnologia. <br>
@@ -53,7 +56,7 @@
         </div>
     </section>
 
-    <div class="projetos">
+    <div class="projetos" id="projetos">
         <h2>Projetos</h2>
 
         <div class="card-projetos">
@@ -80,7 +83,7 @@
         </div>
     </div>
 
-    <footer>
+    <footer id="contatos">
         <h3>Contatos</h3>
 
         <div class="social">
@@ -93,8 +96,9 @@
 
         </div>
     </footer>
+</header>
 
-
+    <script src="menu.js"></script>
 </body>
 
 </html>
